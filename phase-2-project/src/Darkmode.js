@@ -1,12 +1,19 @@
 
+import React, {useState} from "react"
+
+
+
 function Darkmode(){
+
+  const [isDarkMode, setIsDarkMode] = useState(false)
+
     function handleClick(e){
-      console.log(e)
+      setIsDarkMode(!isDarkMode)
     }
 
     return(
       <div>
-          <button onClick={handleClick}>Darkmode</button>
+          <button onClick={handleClick}>{isDarkMode? 'Darkmode': 'Lightmode'} </button>
       </div>
     )
 }
