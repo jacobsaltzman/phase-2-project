@@ -1,0 +1,74 @@
+{
+  "coins": [
+    {
+      "id": 1,
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "type": "PoW",
+      "price": 21194.44
+    },
+    {
+      "id": 2,
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "type": "PoW",
+      "price": 1680.85
+    },
+    {
+      "id": 3,
+      "ticker": "USDT",
+      "name": "Tether",
+      "type": "Stablecoin",
+      "price": 1.0
+    },
+    {
+      "id": 4,
+      "ticker": "USDC",
+      "name": "USD Coin",
+      "type": "Stablecoin",
+      "price": 1.0
+    },
+    {
+      "id": 5,
+      "ticker": "BNB",
+      "name": "Binance Blockchain",
+      "type": "PoW",
+      "price": 250.05
+    },
+    {
+      "id": 6,
+      "ticker": "BUSD",
+      "name": "Binance USD",
+      "type": "Stablecoin",
+      "price": 1.0
+    },
+    {
+      "id": 7,
+      "ticker": "XRP",
+      "name": "Ripple",
+      "type": "RPCA",
+      "price": 0.45
+    },
+    {
+      "id": 8,
+      "ticker": "ADA",
+      "name": "Cardano",
+      "type": "PoS",
+      "price": 0.94
+    },
+    {
+      "id": 9,
+      "ticker": "SOL",
+      "name": "Solana",
+      "type": "PoS",
+      "price": 34.56
+    },
+    {
+      "id": 10,
+      "ticker": "DOGE",
+      "name": "Dogecoin",
+      "type": "PoW",
+      "price": 0.07
+    }
+  ]
+}
