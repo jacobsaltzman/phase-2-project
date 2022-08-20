@@ -5,70 +5,89 @@
       "ticker": "BTC",
       "name": "Bitcoin",
       "type": "PoW",
-      "price": 21194.44
+      "price": 21194.44,
+      "language": "C++"
     },
     {
       "id": 2,
       "ticker": "ETH",
       "name": "Ethereum",
       "type": "PoW",
-      "price": 1680.85
+      "price": 1680.85,
+      "language": "Rust"
+
     },
     {
       "id": 3,
       "ticker": "USDT",
       "name": "Tether",
       "type": "Stablecoin",
-      "price": 1.0
+      "price": 1.0,
+      "language": "n/a"
+
     },
     {
       "id": 4,
       "ticker": "USDC",
       "name": "USD Coin",
       "type": "Stablecoin",
-      "price": 1.0
+      "price": 1.0,
+      "language": "n/a"
+
     },
     {
       "id": 5,
       "ticker": "BNB",
       "name": "Binance Blockchain",
       "type": "PoW",
-      "price": 250.05
+      "price": 250.05,
+      "language": "C++"
+
     },
     {
       "id": 6,
       "ticker": "BUSD",
       "name": "Binance USD",
       "type": "Stablecoin",
-      "price": 1.0
+      "price": 1.0,
+      "language": "n/a"
+
     },
     {
       "id": 7,
       "ticker": "XRP",
       "name": "Ripple",
       "type": "RPCA",
-      "price": 0.45
+      "price": 0.45,
+      "language": "C++"
+
     },
     {
       "id": 8,
       "ticker": "ADA",
       "name": "Cardano",
       "type": "PoS",
-      "price": 0.94
+      "price": 0.94,
+      "language": "Haskell"
+
     },
     {
       "id": 9,
       "ticker": "SOL",
       "name": "Solana",
       "type": "PoS",
-      "price": 34.56
+      "price": 34.56,
+      "language": "Rust"
+
     },
     {
       "id": 10,
       "ticker": "DOGE",
       "name": "Dogecoin",
       "type": "PoW",
-      "price": 0.07
+      "price": 0.07,
+      "language": "C++"
+
     }
   ]
 }
