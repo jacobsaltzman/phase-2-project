@@ -8,7 +8,7 @@ function NewCoinForm(){
     type: "",
     price: "",
     language: "",
-    img: "someURL"
+    image: "https://giphy.com/embed/d3mlGIM8WBQbQfVC"
   })
 
   function handleChange(e) {

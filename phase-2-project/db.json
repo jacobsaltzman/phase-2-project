@@ -7,7 +7,7 @@
       "type": "PoW",
       "price": 21194.44,
       "language": "C++",
-      "image": ""
+      "image": "https://giphy.com/embed/l49JMVDvP8D38LHwI"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "type": "PoW",
       "price": 1680.85,
       "language": "Rust",
-      "image": ""
+      "image": "https://giphy.com/embed/v0u7eU0nSmOJ0hGf6n"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": ""
+      "image": "https://giphy.com/embed/rnKff0ZOkA8XGV16pY"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": ""
+      "image": "https://giphy.com/embed/0OnUSz4ww5pqriEtYi"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "type": "PoW",
       "price": 250.05,
       "language": "C++",
-      "image": ""
+      "image": "https://giphy.com/embed/l0khCwzxCJnQUTaGu8"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": ""
+      "image": "https://giphy.com/embed/Ntvl6AXG3aCMWKKTVB"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "type": "RPCA",
       "price": 0.45,
       "language": "C++",
-      "image": ""
+      "image": "https://giphy.com/embed/jqfXdwlXbfgH3RDoh0"
     },
     {
       "id": 8,
@@ -79,7 +79,7 @@
       "type": "PoS",
       "price": 34.56,
       "language": "Rust",
-      "image": ""
+      "image": "https://giphy.com/embed/rB67TU2LKAQc5XR3rJ"
     },
     {
       "id": 10,
@@ -88,8 +88,7 @@
       "type": "PoW",
       "price": 0.07,
       "language": "C++",
-      "image": "",
-      "amount": 0
+      "image": "https://giphy.com/embed/Qs1aGsytdmAg854JWN"
     }
   ],
   "portfolio": [

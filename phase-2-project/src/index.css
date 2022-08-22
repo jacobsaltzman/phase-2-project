@@ -61,3 +61,9 @@ section {
 .card p {
   font-variant: small-caps;
 }
+
+.giphy-embed {
+  width: 230px; 
+  height: "260"; 
+  
+}
