@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import CoinContainer from "./CoinContainer.js";
 
 function MainPage(){
 
@@ -15,6 +16,7 @@ function MainPage(){
   return(
     <div>
       <h1>Top Coins</h1>
+      <CoinContainer coins={coins}/>
     </div>
   )
 
