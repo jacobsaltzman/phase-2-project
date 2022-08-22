@@ -7,7 +7,7 @@ function CoinCard({coin}){
   return(
     <li className="card">
       <h3 id={id}>{name}</h3>
-      <img src={image} alt={name}/>
+      <iframe src={image} width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
       <h4>{ticker} @ ${price}</h4>
       <p>{name} is a {type} blockchain, originally coded in {language}</p>
     </li>
