@@ -6,7 +6,7 @@ function CoinCard({coin}){
 
   return(
     <li className="card">
-      <h3>{name}</h3>
+      <h3 id={id}>{name}</h3>
       <img src={image} alt={name}/>
       <h4>{ticker} @ ${price}</h4>
       <p>{name} is a {type} blockchain,</p>
