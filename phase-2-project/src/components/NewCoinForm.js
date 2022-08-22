@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function NewCoinForm(){
+function NewCoinForm({ onAddCoin }){
 
   const[formData, setFormData] = useState({
     name: "",
@@ -19,7 +19,7 @@ function NewCoinForm(){
   function handleSubmit(e) {
     e.preventDefault();
 
-    fetch("http://localhost:3001/portfolio", {
+    fetch("http://localhost:3001/coins", {
     method: "POST",
     headers: {
       'Content-Type': 'application/json',
@@ -28,9 +28,19 @@ function NewCoinForm(){
     body: JSON.stringify(formData)
   })
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        onAddCoin(data)
+        setFormData({
+          name: "",
+          ticker: "",
+          type: "",
+          price: "",
+          language: "",
+          image: "https://giphy.com/embed/d3mlGIM8WBQbQfVC"
+        });
+      });
 
-  }
+  };
 
   return (
     <section>

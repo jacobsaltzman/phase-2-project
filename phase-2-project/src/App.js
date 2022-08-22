@@ -14,14 +14,16 @@ function App() {
       .then((data)=> setCoins(data))
   }, [])
 
-  console.log(coins)
+  function onAddCoin(newCoin){
+    setCoins([...coins, newCoin])
+  }
 
 
   return (
     <div className="App">
       <Header />
       <MainPage coins={coins}/>
-      <NewCoinForm />
+      <NewCoinForm onAddCoin={onAddCoin}/>
     </div>
   );
 }
