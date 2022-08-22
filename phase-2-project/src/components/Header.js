@@ -6,7 +6,7 @@ const Header = () => {
     <header className="App-header">
       <Darkmode />
       <h1>
-        This is Sparta!
+        Coin+folio
       </h1>
     </header>
   )
