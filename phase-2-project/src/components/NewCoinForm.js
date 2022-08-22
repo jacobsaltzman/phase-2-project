@@ -1,20 +1,50 @@
-import React from "react";
+import React, {useState} from "react";
 
 function NewCoinForm(){
 
+  const[formData, setFormData] = useState({
+    name: "",
+    ticker: "",
+    type: "",
+    price: "",
+    language: "",
+    img: "someURL"
+  })
+
+  function handleChange(e) {
+    const {name, value} = e.target;
+    setFormData((formData) => ({...formData, [name]: value}))
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    fetch("http://localhost:3001/portfolio", {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json',
+      'Accepts': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+      .then((r) => r.json())
+      .then((data) => console.log(data));
+
+  }
+
   return (
     <section>
-      <form className="form" autoComplete="off">
+      <form className="form" onSubmit={handleSubmit}>
         <h3>Add New Coin</h3>
 
         <label>Name</label>
-        <input type="text" id="name" name="name"/>
+        <input type="text" id="name" name="name" onChange={handleChange} value={formData.name}/>
 
         <label>Ticker Symbol</label>
-        <input type="text" id="ticker" name="ticker"/>
+        <input type="text" id="ticker" name="ticker" onChange={handleChange} value={formData.ticker}/>
 
         <label>Consensus Mechanism</label>
-        <select name="type" id="type">
+        <select name="type" id="type" onChange={handleChange} value={formData.type}>
           <option>Select One</option>
           <option value="PoW">Proof of Work</option>
           <option value="PoS">Proof of Stake</option>
@@ -23,10 +53,10 @@ function NewCoinForm(){
         </select>
 
         <label>Current Price</label>
-        <input type="number" id="price" name="price"/>
+        <input type="number" id="price" name="price" onChange={handleChange} value={formData.price}/>
 
         <label>Base Code Language</label>
-        <select name="type" id="type">
+        <select name="language" id="language" onChange={handleChange} value={formData.language}>
           <option>Select One</option>
           <option value="python">Python</option>
           <option value="C++">C++</option>
