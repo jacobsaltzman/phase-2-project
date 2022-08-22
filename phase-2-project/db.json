@@ -80,9 +80,7 @@
       "price": 34.56,
       "language": "Rust",
       "image": ""
-    }
-  ],
-  "portfolio": [
+    },
     {
       "id": 10,
       "name": "Dogecoin",
@@ -93,5 +91,8 @@
       "image": "",
       "amount": 0
     }
+  ],
+  "portfolio": [
+    
   ]
 }
