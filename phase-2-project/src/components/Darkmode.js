@@ -11,8 +11,8 @@ function Darkmode(){
     }
 
     return(
-      <div>
-          <button onClick={handleClick}>{isDarkMode? 'Darkmode': 'Lightmode'} </button>
+      <div id="dark-button">
+          <button onClick={handleClick}>{isDarkMode? 'Darkmode 🌙': 'Lightmode ☀️'} </button>
       </div>
     )
 }

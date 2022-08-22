@@ -14,7 +14,7 @@ function MainPage(){
 
   return(
     <div>
-   
+      <h1>Top Coins</h1>
     </div>
   )
 

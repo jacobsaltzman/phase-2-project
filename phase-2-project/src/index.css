@@ -7,8 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+section {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+.form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px solid;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.form h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+ 
+}
+
+.form button {
+  width: 75px;
+  margin-top: 15px;
+  text-align: center;
+  align-self: center;
+  background-color: azure;
+  border-radius: 15px;
+}
+
+#dark-button {
+  text-align: right;
+  border-radius: 10px;
+}

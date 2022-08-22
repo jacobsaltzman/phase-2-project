@@ -1,5 +1,5 @@
 # Phase 2 -- React Project
-# Coin Data
+# Coinfolio
 
 
 ## Summary
