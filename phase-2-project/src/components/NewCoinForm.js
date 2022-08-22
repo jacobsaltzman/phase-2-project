@@ -15,17 +15,25 @@ function NewCoinForm(){
 
         <label>Consensus Mechanism</label>
         <select name="type" id="type">
-          <option>Proof of Work</option>
-          <option>Proof of Stake</option>
-          <option>Stablecoin</option>
-          <option>Other</option>
+          <option>Select One</option>
+          <option value="PoW">Proof of Work</option>
+          <option value="PoS">Proof of Stake</option>
+          <option value="Stablecoin">Stablecoin</option>
+          <option value="RPCA">Other</option>
         </select>
 
         <label>Current Price</label>
         <input type="number" id="price" name="price"/>
 
         <label>Language of Base Code</label>
-        <input type="text" id="language" name="language"/>
+        <select name="type" id="type">
+          <option>Select One</option>
+          <option value="python">Python</option>
+          <option value="C++">C++</option>
+          <option value="Rust">Rust</option>
+          <option value="Haskell">Haskell</option>
+          <option value="n/a">Other</option>
+        </select>
 
         <button type="submit">Add Coin</button>
       </form>
