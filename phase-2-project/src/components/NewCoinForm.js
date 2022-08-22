@@ -25,7 +25,7 @@ function NewCoinForm(){
         <label>Current Price</label>
         <input type="number" id="price" name="price"/>
 
-        <label>Language of Base Code</label>
+        <label>Base Code Language</label>
         <select name="type" id="type">
           <option>Select One</option>
           <option value="python">Python</option>
