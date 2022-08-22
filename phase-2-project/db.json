@@ -6,7 +6,8 @@
       "ticker": "BTC",
       "type": "PoW",
       "price": 21194.44,
-      "language": "C++"
+      "language": "C++",
+      "image": ""
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "ticker": "ETH",
       "type": "PoW",
       "price": 1680.85,
-      "language": "Rust"
+      "language": "Rust",
+      "image": ""
 
     },
     {
@@ -23,7 +25,9 @@
       "ticker": "USDT",
       "type": "Stablecoin",
       "price": 1.0,
-      "language": "n/a"
+      "language": "n/a",
+      "image": ""
+
 
     },
     {
@@ -32,7 +36,9 @@
       "ticker": "USDC",
       "type": "Stablecoin",
       "price": 1.0,
-      "language": "n/a"
+      "language": "n/a",
+      "image": ""
+
 
     },
     {
@@ -41,7 +47,9 @@
       "ticker": "BNB",
       "type": "PoW",
       "price": 250.05,
-      "language": "C++"
+      "language": "C++",
+      "image": ""
+
 
     },
     {
@@ -50,7 +58,9 @@
       "ticker": "BUSD",
       "type": "Stablecoin",
       "price": 1.0,
-      "language": "n/a"
+      "language": "n/a",
+      "image": ""
+
 
     },
     {
@@ -59,7 +69,9 @@
       "ticker": "XRP",
       "type": "RPCA",
       "price": 0.45,
-      "language": "C++"
+      "language": "C++",
+      "image": ""
+
 
     },
     {
@@ -68,7 +80,9 @@
       "ticker": "ADA",
       "type": "PoS",
       "price": 0.94,
-      "language": "Haskell"
+      "language": "Haskell",
+      "image": ""
+
 
     },
     {
@@ -77,7 +91,9 @@
       "ticker": "SOL",
       "type": "PoS",
       "price": 34.56,
-      "language": "Rust"
+      "language": "Rust",
+      "image": ""
+
 
     },
     {
@@ -86,7 +102,9 @@
       "ticker": "DOGE",
       "type": "PoW",
       "price": 0.07,
-      "language": "C++"
+      "language": "C++",
+      "image": ""
+
 
     }
   ]
