@@ -44,3 +44,20 @@ section {
   text-align: right;
   border-radius: 10px;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  margin: 1rem;
+  background-color: rgb(236, 235, 234);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card p {
+  font-variant: small-caps;
+}

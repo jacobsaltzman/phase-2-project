@@ -5,7 +5,7 @@
 ## Summary
 
 
-A single page web app crypto portfolio tool. It showcases top coins' stats, allows users to add projects to the collection and mark their own investments in a portfolio.
+A single page web app crypto encyclopedia and portfolio tool. It showcases top coins' stats and facts, allows users to add projects to the collection and mark their own investments in a portfolio.
 
 
 ## How it works for the user
@@ -28,4 +28,4 @@ In this web-application, users are presented first with a collection of the top 
 [-]Add an input in the form for which Cex or Wallet is currently holding those coins
 [-]Scrolling information from an API with pricing data of pairs
 [-]Adding search function, both for selection and text
-[-]
+[-]Click a card for more detail
