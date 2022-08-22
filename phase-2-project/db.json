@@ -116,9 +116,8 @@
       "type": "PoW",
       "price": 0.07,
       "language": "C++",
-      "image": ""
-
-
+      "image": "",
+      "amount": 0
     },
     {
       "id": 10,
@@ -127,9 +126,8 @@
       "type": "PoW",
       "price": 0.07,
       "language": "C++",
-      "image": ""
-
-
+      "image": "",
+      "amount": 0
     },
     {
       "id": 10,
@@ -138,9 +136,8 @@
       "type": "PoW",
       "price": 0.07,
       "language": "C++",
-      "image": ""
-
-
+      "image": "",
+      "amount": 0
     }
   ]
 }
