@@ -5,7 +5,6 @@ const Header = () => {
   return(
     <header className="App-header">
       <Darkmode />
-
       <h1>
         This is Sparta!
       </h1>

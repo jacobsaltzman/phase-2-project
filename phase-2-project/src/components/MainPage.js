@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function MainPage(){
-  const [coins, setCoins] = useState([])
+  const [coins, setCoins] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3001/coins")
