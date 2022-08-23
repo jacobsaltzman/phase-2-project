@@ -1,5 +1,5 @@
 # Phase 2 -- React Project
-# Coinfolio -- a crypto landing pad
+# Coinfolio -- A Cryptocurrency Landing Pad
 
 
 -----------------------------------------------------------------------------------------
@@ -27,10 +27,15 @@ Future additions in the works include adding a market page to view real-time mar
 
 
 ✅ Single Page Application MVP Built From Scratch Using create-react-app
+
 ✅ More than 5 components
+
 [-] At least 3 Client-Side Routes using React Router
+
 ✅ Uses json-server To Make Both A GET and a POST Request On A Form
+
 ✅ Adds CSS styling From Scratch
+
 [-] (OPTIONAL) Incorporates Data From An External API
 
 
@@ -41,10 +46,17 @@ Future additions in the works include adding a market page to view real-time mar
 
 
 [-] Add a way to say how many of each coin the users own in their portfolio
+
 [-]Calculate the total price of all coins owned and adds it to the top
+
 [-]Run real-time price data or allow users to update current pricing
+
 [-]Add the ability to link an image to a new coin instead of the placeholder
+
 [-]Add an input in the form for which Exchange or Wallet is currently holding those coins
+
 [-]Scrolling information from an API with pricing data of pairs
+
 [-]Adding search function, both for selection and text
+
 [-]Click a card for more detail and add "about" in form field for adding detail for new coins
