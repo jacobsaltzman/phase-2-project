@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import Home from './components/Home';
 import Header from './components/Header';
 import MainPage from './components/MainPage.js';
 import NewCoinForm from "./components/NewCoinForm.js";
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Home />
       <MainPage coins={coins}/>
       <NewCoinForm onAddCoin={onAddCoin}/>
     </div>
