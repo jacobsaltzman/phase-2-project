@@ -8,9 +8,18 @@ body {
 }
 
 .App{
-  background-color: rgb(243, 239, 234);
+  background: var(--background);
   min-height: 100vh;
+  margin: .5rem auto;
+  color: var(--font-color);
+  box-shadow: 4px;
 }
+
+.App.dark {
+  --font-color: white;
+  --background: black;
+}
+
 
 section {
   padding: 2rem;

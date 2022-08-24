@@ -1,11 +1,14 @@
 import React from "react";
-import Darkmode from "./Darkmode";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({handleDarkMode, isDarkMode}) => {
+
+  
   return(
     <header className="App-header">
-      <Darkmode />
+      <div id="dark-button">
+          <button onClick={handleDarkMode}>{isDarkMode? 'Darkmode 🌙': 'Lightmode ☀️'} </button>
+      </div>
         <div className="navbar-header">
           <h1 id="logo">
             Coin+folio

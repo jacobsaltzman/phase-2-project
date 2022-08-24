@@ -11,6 +11,7 @@ import {Switch, Route} from 'react-router-dom';
 function App() {
 
   const [coins, setCoins] = useState([]);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     fetch("http://localhost:3001/coins")
@@ -21,11 +22,14 @@ function App() {
   function onAddCoin(newCoin){
     setCoins([...coins, newCoin])
   }
+  function handleDarkMode(e){
+    setIsDarkMode(!isDarkMode)
+  }
 
 
   return (
-    <div className="App">
-      <Header />
+    <div className={isDarkMode ? "App" : "App dark"}>
+      <Header isDarkMode={isDarkMode} handleDarkMode={handleDarkMode}/>
       <Switch>
         <Route exact path="/">
           <Home />
