@@ -11,8 +11,8 @@ function CoinCard({coin}){
       <h4>{ticker} @ ${price}</h4>
       <p>{name} is a {type} blockchain, originally coded in {language}</p>
       <br/>
-      <button className="plus-button">Add to Portfolio</button>
-      <button className="learn-button">Learn more</button>
+      <button id="plus-button">Add to Portfolio</button>
+      <button id="learn-button">Learn more</button>
     </ul>
   )
 }
