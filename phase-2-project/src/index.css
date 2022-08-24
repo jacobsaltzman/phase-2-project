@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(243, 239, 234);
 }
 
 section {
@@ -94,4 +95,8 @@ a:hover {
 #top-coins {
   text-align: center;
   font-style: inherit;
+}
+
+.navbar-header{
+  background-color: rgb(238, 236, 236);
 }

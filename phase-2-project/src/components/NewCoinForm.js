@@ -39,7 +39,7 @@ function NewCoinForm({ onAddCoin }){
           image: "https://giphy.com/embed/d3mlGIM8WBQbQfVC"
         });
       });
-
+      alert("Added to the Top Coins page! Thanks for contributing");
   };
 
   return (
