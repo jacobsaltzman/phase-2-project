@@ -17,7 +17,7 @@ body {
 
 .App.dark {
   --font-color: white;
-  --background: black;
+  --background: rgb(33,74,96);
 }
 
 
@@ -37,6 +37,7 @@ section {
   background-color: whitesmoke;
   border-radius: 10px;
   border-bottom: 5px solid;
+  color: rgb(33,74,96);
 }
 
 .form h3 {
@@ -67,14 +68,14 @@ section {
 .card {
   width: 250px;
   margin: .5rem;
-  background-color: rgb(236, 235, 234);
+  background-color: rgb(231, 213, 170);
   border-radius: 10px;
   padding: 15px;
-  border: .5px g
-  
+  border: .5px;
 }
 
 .card h3, h4 {
+  color: rgb(33,74,96);
   text-align: center;
   font-size: 18px;
 }
@@ -82,6 +83,7 @@ section {
 
 .card p {
   font-variant: small-caps;
+  
 }
 
 .giphy-embed {
@@ -135,3 +137,10 @@ a:hover {
   align-self: center;
   
 }
+
+#logo {
+  color: rgb(185,83,1);
+}
+
+
+

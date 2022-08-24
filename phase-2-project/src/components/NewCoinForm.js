@@ -44,6 +44,8 @@ function NewCoinForm({ onAddCoin }){
 
   return (
     <section>
+      <h3>Each day the blockchain ecosystem expands tremendously!</h3>
+      <p>It can be challenging to keep up with every new protocol and system and their corresponding currency... <br/>Adding new coins to our site helps our users learn more about new and interesting projects!</p>
       <form className="form" onSubmit={handleSubmit}>
         <h3>Add New Coin</h3>
 
