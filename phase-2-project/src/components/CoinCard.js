@@ -10,6 +10,9 @@ function CoinCard({coin}){
       <iframe src={image} className="giphy-embed" allowFullScreen title={name}></iframe>
       <h4>{ticker} @ ${price}</h4>
       <p>{name} is a {type} blockchain, originally coded in {language}</p>
+      <br/>
+      <button className="plus-button">Add to Portfolio</button>
+      <button className="learn-button">Learn more</button>
     </ul>
   )
 }
