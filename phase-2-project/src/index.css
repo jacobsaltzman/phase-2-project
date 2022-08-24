@@ -94,14 +94,16 @@ section {
 
 a {
   border-bottom: none;
+  border-left: 1px solid;
   align-content: center;
   text-decoration: none;
   padding: .5%;
   text-align: center;
+  color: rgb(187, 149, 25);
 }
 
 a:hover {
-  background-color: rgb(170, 152, 130);
+  background-color: rgba(170, 152, 130, 0.452);
   border-radius: 10px;
   border-width: solid;
   text-emphasis: bold;
