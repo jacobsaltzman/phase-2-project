@@ -17,7 +17,7 @@ Coinfolio is a single page web application that functions as a crypto encycloped
 ## How it works for the user
 
 
-In this web-application, users are presented first with a home page (home) that greats them and informs them of the function of the site. In the main page (learn), there is a rendered collection of the top cryptocurrencies with their names, some data, and an image/gif. They can also navigate to their own "portfolio" (folio) in which they will be able to save coins from the home page to make a collection and keep track of their own investments. Or they can navigate to the "Add New Coin" (Add Coin) and create a new coin card for the community to see on the main page.
+In this web-application, users are presented first with a home page (home) that greats them and informs them of the function of the site. In the main page (coins), there is a rendered collection of the top cryptocurrencies with their names, some data, and an image/gif. They can also navigate to their own "portfolio" (folio) in which they will be able to save coins from the home page to make a collection and keep track of their own investments. Or they can navigate to the "Add New Coin" (Add Coin) and create a new coin card for the community to see on the main page.
 
 
 Future additions in the works include adding a market page to view real-time market data and prices, adding Dark and Light Mode stylings and toggle, event-handlers that when clicking a coin card would send the user to a more detailed description or straight to the Wiki page, ect. 
