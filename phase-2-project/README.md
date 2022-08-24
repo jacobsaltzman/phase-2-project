@@ -30,7 +30,7 @@ Future additions in the works include adding a market page to view real-time mar
 
 ✅ More than 5 components
 
-[-] At least 3 Client-Side Routes using React Router
+✅ At least 3 Client-Side Routes using React Router
 
 ✅ Uses json-server To Make Both A GET and a POST Request On A Form
 
