@@ -7,17 +7,17 @@ const Header = () => {
     <header className="App-header">
       <Darkmode />
         <div className="navbar-header">
-          <h1>
+          <h1 id="logo">
             Coin+folio
           </h1>
           <div className="navbar">
-            <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/coins">Top Coins</Link></li>
-            <li><Link to="/newcoin">Add A Coin</Link></li>
-            <li><Link to="/portfolio">My Portfolio</Link></li>
-            <li><Link to="/market">Market Data</Link></li>
-            </ul>
+            
+            <Link to="/">Home</Link>
+            <Link to="/coins">Top Coins</Link>
+            <Link to="/newcoin">Add A Coin</Link>
+            <Link to="/portfolio">My Portfolio</Link>
+            <Link to="/market">Market Data</Link>
+            
           </div>
         </div>
     </header>

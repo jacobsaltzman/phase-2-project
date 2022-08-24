@@ -76,7 +76,22 @@ section {
   background-color: white;
 }
 
-.navbar {
+a {
   border-bottom: none;
-  align-content: space-between;
+  align-content: center;
+  text-decoration: none;
+  padding: .5%;
+  text-align: center;
+}
+
+a:hover {
+  background-color: rgb(170, 152, 130);
+  border-radius: 10px;
+  border-width: solid;
+  text-emphasis: bold;
+}
+
+#top-coins {
+  text-align: center;
+  font-style: inherit;
 }

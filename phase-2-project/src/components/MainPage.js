@@ -5,7 +5,7 @@ function MainPage({ coins }){
   
   return(
     <div>
-      <h1>Top Coins</h1>
+      <h1 id="top-coins">Top Coins</h1>
       <CoinContainer coins={coins}/>
     </div>
   )
