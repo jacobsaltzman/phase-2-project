@@ -4,7 +4,7 @@ import React, {useState} from "react"
 
 function Darkmode(){
 
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
 
     function handleClick(e){
       setIsDarkMode(!isDarkMode)

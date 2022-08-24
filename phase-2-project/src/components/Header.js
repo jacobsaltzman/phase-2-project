@@ -11,11 +11,13 @@ const Header = () => {
             Coin+folio
           </h1>
           <div className="navbar">
-            <Link to="/">Home</Link>
-            <Link to="/coins">Top Coins</Link>
-            <Link to="/newcoin">Add A Coin</Link>
-            <Link to="/portfolio">My Portfolio</Link>
-            <Link to="/market">Market Data</Link>
+            <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/coins">Top Coins</Link></li>
+            <li><Link to="/newcoin">Add A Coin</Link></li>
+            <li><Link to="/portfolio">My Portfolio</Link></li>
+            <li><Link to="/market">Market Data</Link></li>
+            </ul>
           </div>
         </div>
     </header>
