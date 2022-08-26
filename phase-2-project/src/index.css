@@ -86,6 +86,11 @@ section {
   
 }
 
+.card a {
+  text-align: center;
+  padding: 1rem;
+}
+
 .giphy-embed {
   width: 230px; 
   height: "260"; 
@@ -94,7 +99,8 @@ section {
 
 a {
   border-bottom: none;
-  border-left: 1px solid;
+  border-left: .5px solid;
+  border-right: .5px solid;
   align-content: center;
   text-decoration: none;
   padding: .5%;

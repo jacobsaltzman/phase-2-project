@@ -7,7 +7,9 @@
       "type": "PoW",
       "price": 21194.44,
       "language": "C++",
-      "image": "https://giphy.com/embed/l49JMVDvP8D38LHwI"
+      "image": "https://giphy.com/embed/l49JMVDvP8D38LHwI",
+      "wp": "https://bitcoin.org/bitcoin.pdf",
+      "github": "https://github.com/bitcoin/bitcoin"
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "type": "PoW",
       "price": 1680.85,
       "language": "Rust",
-      "image": "https://giphy.com/embed/v0u7eU0nSmOJ0hGf6n"
+      "image": "https://giphy.com/embed/v0u7eU0nSmOJ0hGf6n",
+      "wp": "https://ethereum.org/en/whitepaper/",
+      "github": "https://github.com/ethereum/go-ethereum"
     },
     {
       "id": 3,
@@ -25,7 +29,9 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": "https://giphy.com/embed/rnKff0ZOkA8XGV16pY"
+      "image": "https://giphy.com/embed/rnKff0ZOkA8XGV16pY",
+      "wp": "https://assets.ctfassets.net/vyse88cgwfbl/5UWgHMvz071t2Cq5yTw5vi/c9798ea8db99311bf90ebe0810938b01/TetherWhitePaper.pdf",
+      "github": ""
     },
     {
       "id": 4,
@@ -34,7 +40,9 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": "https://giphy.com/embed/0OnUSz4ww5pqriEtYi"
+      "image": "https://giphy.com/embed/0OnUSz4ww5pqriEtYi",
+      "wp": "https://f.hubspotusercontent30.net/hubfs/9304636/PDF/centre-whitepaper.pdf",
+      "github": "https://github.com/centrehq/centre-tokens"
     },
     {
       "id": 5,
@@ -43,7 +51,9 @@
       "type": "PoW",
       "price": 250.05,
       "language": "C++",
-      "image": "https://giphy.com/embed/l0khCwzxCJnQUTaGu8"
+      "image": "https://giphy.com/embed/l0khCwzxCJnQUTaGu8",
+      "wp": "",
+      "github": "https://github.com/binance-exchange/binance-official-api-docs"
     },
     {
       "id": 6,
@@ -52,7 +62,9 @@
       "type": "Stablecoin",
       "price": 1,
       "language": "n/a",
-      "image": "https://giphy.com/embed/Ntvl6AXG3aCMWKKTVB"
+      "image": "https://giphy.com/embed/Ntvl6AXG3aCMWKKTVB",
+      "wp": "",
+      "github": "https://github.com/paxosglobal/busd-contract"
     },
     {
       "id": 7,
@@ -61,7 +73,9 @@
       "type": "RPCA",
       "price": 0.45,
       "language": "C++",
-      "image": "https://giphy.com/embed/jqfXdwlXbfgH3RDoh0"
+      "image": "https://giphy.com/embed/jqfXdwlXbfgH3RDoh0",
+      "wp": "https://ripple.com/files/ripple_consensus_whitepaper.pdf",
+      "github": "https://github.com/XRPLF/rippled"
     },
     {
       "id": 8,
@@ -70,7 +84,9 @@
       "type": "PoS",
       "price": 0.94,
       "language": "Haskell",
-      "image": "https://giphy.com/embed/24MrcMaQ2gOLtTQJfu"
+      "image": "https://giphy.com/embed/24MrcMaQ2gOLtTQJfu",
+      "wp": "https://docs.cardano.org/introduction",
+      "github": "https://cardanoupdates.com/"
     },
     {
       "id": 9,
@@ -79,7 +95,9 @@
       "type": "PoS",
       "price": 34.56,
       "language": "Rust",
-      "image": "https://giphy.com/embed/rB67TU2LKAQc5XR3rJ"
+      "image": "https://giphy.com/embed/rB67TU2LKAQc5XR3rJ",
+      "wp": "https://solana.com/solana-whitepaper.pdf",
+      "github": "https://github.com/solana-labs"
     },
     {
       "id": 10,
@@ -88,7 +106,9 @@
       "type": "PoW",
       "price": 0.07,
       "language": "C++",
-      "image": "https://giphy.com/embed/Qs1aGsytdmAg854JWN"
+      "image": "https://giphy.com/embed/Qs1aGsytdmAg854JWN",
+      "wp": "https://foundation.dogecoin.com/manifesto/",
+      "github": "https://github.com/dogecoin/dogecoin"
     }
   ],
   "portfolio": []
