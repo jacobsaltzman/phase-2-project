@@ -88,7 +88,8 @@ section {
 
 .card a {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
+  border: none;
 }
 
 .giphy-embed {
@@ -127,11 +128,10 @@ a:hover {
 #plus-button {
   background-color: rgba(222, 162, 162, 0.562);
   border-radius: 5%;
-  text-align: center;
   border-width: .5px;
-  border-style: dotted;
-  align-self: center;
-
+  border-style: none;
+  justify-content: center;
+  display: flex;
 }
 
 #logo {
